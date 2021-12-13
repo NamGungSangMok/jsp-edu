@@ -1,0 +1,10 @@
+
+######################
+# Eclipse
+######################
+.project
+.metadata
+.classpath
+.settings/
+target/
+src/main/resources/rebel.xml

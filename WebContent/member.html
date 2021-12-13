@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>회원 정보</h3>
+	<form action="queryTest" method="POST">
+		<ul>
+			<li>
+				<label for="id">ID:</label>
+				<input type="text" name="id"/>
+			</li>
+			<li>
+				<label for="pwd">PASSWORD:</label>
+				<input type="password" name="pwd"/>
+			</li>
+			<li>
+				<label >취미:</label>
+				<input type="checkbox" name="hobby" value="sports"/>운동
+				<input type="checkbox" name="hobby" value="reading"/>독서
+			</li>
+		</ul>
+		<input type="submit" value="전송"/>
+		<input type="reset" value="지우기"/>
+	</form>
+</body>
+</html>
+
